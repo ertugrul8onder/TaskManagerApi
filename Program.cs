@@ -27,6 +27,9 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
+// Basit health check endpoint'i
+app.MapGet("/", () => Results.Ok());
+
 // Migration'ları otomatik uygula
 using (var scope = app.Services.CreateScope())
 {

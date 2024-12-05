@@ -20,7 +20,7 @@ builder.Services.AddSwaggerGen();
 
 // Entity Framework için SQLite bağlantısı ekliyoruz
 builder.Services.AddDbContext<TaskDbContext>(options =>
-    options.UseSqlite("Data Source=/app/data/tasks.db"));
+    options.UseSqlite("Data Source=tasks.db"));
 
 // Controller'ları ekliyoruz
 builder.Services.AddControllers();

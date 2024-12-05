@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ertugrul\\Desktop\\TaskManagerApi\\TaskManagerApi.csproj": {}
+    "C:\\Users\\Ertugrul\\Desktop\\Github\\TaskManagerApi\\TaskManagerApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ertugrul\\Desktop\\TaskManagerApi\\TaskManagerApi.csproj": {
+    "C:\\Users\\Ertugrul\\Desktop\\Github\\TaskManagerApi\\TaskManagerApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ertugrul\\Desktop\\TaskManagerApi\\TaskManagerApi.csproj",
+        "projectUniqueName": "C:\\Users\\Ertugrul\\Desktop\\Github\\TaskManagerApi\\TaskManagerApi.csproj",
         "projectName": "TaskManagerApi",
-        "projectPath": "C:\\Users\\Ertugrul\\Desktop\\TaskManagerApi\\TaskManagerApi.csproj",
+        "projectPath": "C:\\Users\\Ertugrul\\Desktop\\Github\\TaskManagerApi\\TaskManagerApi.csproj",
         "packagesPath": "C:\\Users\\Ertugrul\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ertugrul\\Desktop\\TaskManagerApi\\obj\\",
+        "outputPath": "C:\\Users\\Ertugrul\\Desktop\\Github\\TaskManagerApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ertugrul\\AppData\\Roaming\\NuGet\\NuGet.Config"

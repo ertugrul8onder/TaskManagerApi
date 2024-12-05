@@ -1,0 +1,67 @@
+# .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+.vscode/
+*.swp
+*.*~
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# SQLite veritabanı dosyaları
+*.db
+*.db-shm
+*.db-wal
+/data/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build çıktıları
+build/
+dist/
+out/
+.next/
+
+# Environment dosyaları
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# MacOS sistem dosyaları
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows sistem dosyaları
+Thumbs.db
+ehthumbs.db
+Desktop.ini 

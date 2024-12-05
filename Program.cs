@@ -8,9 +8,12 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp",
         builder =>
         {
-            builder.WithOrigins("http://localhost:5173") // React'ın default portu
-                   .AllowAnyHeader()
-                   .AllowAnyMethod();
+            builder.WithOrigins(
+                    "http://localhost:5173",  // Development için
+                    "https://taskmanagerweb.ertugrulonder.com" // Production için
+                )
+                .AllowAnyHeader()
+                .AllowAnyMethod();
         });
 });
 
